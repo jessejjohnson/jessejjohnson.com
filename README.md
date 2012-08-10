@@ -1,3 +1,5 @@
-# jessejjohnson.com
+# Personal Site
 
-Personal site showcasing current projects
+Jesse Johnson's personal site
+
+[jessejjohnson.com](http://jessejjohnson.com)
