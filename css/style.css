@@ -1,47 +1,102 @@
-/*=======================================================================
 
-	❤❤❤ Gumby by Digital Surgeons. ❤❤❤
-	
-	*** This is where you should keep all of your design specific styles ***
- 
- ========================================================================*/
+/********************************************************************************************
 
-footer {
-    border-top-color: rgb(239, 239, 239);
-    border-top-style: solid;
-    border-top-width: 1px;
-    padding: 10px 0px 0px;
+Theme Name: So Simple
+Theme URI: http://www.press75.com/
+Description: A clean and simple blogging theme.
+Version: 1.0.0
+Author: Press75.com
+Author URI: http://www.press75.com/
+License: GNU General Public License
+
+*********************************************************************************************/
+
+/* Resets
+*********************************************************************************************/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#444;}
+
+/* So Simple :)
+*********************************************************************************************/
+
+body {
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.50);
+    padding: 0;
+    font: 200 18px/30px 'Lustria', serif;
 }
 
-.alt {
-    color: rgb(140, 191, 38);
+::selection,
+::-moz-selection { 
+    background: #f1f1f1; 
 }
 
-.btn {
-    background: rgb(51, 51, 51);
-    color: rgb(255, 255, 255);
-    display: block;
-    font-size: 1.57em;
-    font-weight: 100;
-    text-transform: lowercase;
-    height: 85px;
-    line-height: 85px;
-    margin: 0px 0px 20px;
-    text-align: center;
+h1, h2, h3 {
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.70);
+    margin: 0 0 10px;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+a,
+a:hover {
+    color: rgba(0, 0, 0, 0.70);
     text-decoration: none;
 }
 
-    .btn:hover {
-        background: rgb(102, 102, 102);
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-    }
+a:hover {
+    color: rgba(0, 0, 0, 0.25);
+}
 
-.module {
-    background: rgb(51, 51, 51);
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    padding: 20px;
+ul {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+ul,
+ul a {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+ul a:hover {
+    color: rgba(0, 0, 0, 0.70);
+}
+
+/* Containers
+*********************************************************************************************/
+
+header,
+article {
+    padding: 8% 20%;
+    float: left;
+}
+
+article {
+    padding-top: 0;
+}
+
+#single {
+    padding-top: 8%;
+}
+
+/* Header
+*********************************************************************************************/
+
+header {
+    background: #58cb8e;
+    color: rgba(255, 255, 255, 0.70);
+    margin-bottom: 8%;
+}
+
+header a,
+header h1 {
+    color: #ffffff;
+}
+
+header a:hover {
+    color: rgba(255, 255, 255, 0.70);
 }
