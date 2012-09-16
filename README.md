@@ -1,8 +1,12 @@
-# Personal Site
+## Personal Portfolio
 
-Jesse Johnson's personal portfolio - [jessejjohnson.com](http://jessejjohnson.com)
+[jessejjohnson.com](http://jessejjohnson.com)
 
-Green: rgb(88, 203, 142)
+* Green: #58CB8D
+* Blue: #589ABE
+* Orange: #FFBD6F
+
+
 White: rgba(255, 255, 255, 0.70)
 Dark: rgba(0, 0, 0, 0.70)
 Normal: rgba(0, 0, 0, 0.50)
