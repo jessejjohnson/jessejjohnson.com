@@ -1,9 +1,1 @@
-# Personal Portfolio
-
-[jessejjohnson.com](http://jessejjohnson.com)
-
-## Experimental Projects
-
-[jessejjohnson.com](http://jessejjohnson.com/labs)
-
-
+Links currently point to Azure Website hosting as development continues.
