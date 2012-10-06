@@ -1,1 +1,1 @@
-Links currently point to Azure Website hosting as development continues.
+jessejjohnson.com

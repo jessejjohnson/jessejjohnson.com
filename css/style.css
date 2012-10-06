@@ -14,7 +14,69 @@ License: GNU General Public License
 /* Resets
 *********************************************************************************************/
 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#444;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+li {
+    list-style: disc;
+    list-style-position: outside;
+}
+
+caption, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+input, textarea, select {
+    *font-size: 100%;
+}
+
+legend {
+    color: #444;
+}
 
 /* So Simple :)
 *********************************************************************************************/
@@ -23,64 +85,68 @@ body {
     background: #ffffff;
     color: rgba(0, 0, 0, 0.50);
     padding: 0;
-    font: 200 18px/30px 'Lustria', serif;
+    font: 200 18px/30px "Open Sans",'Lustria', serif;
 }
 
-::selection,
-::-moz-selection { 
-    background: #f1f1f1; 
+::selection, ::-moz-selection {
+    background: #f1f1f1;
 }
 
 h1, h2, h3 {
-    font-size: 24px;
     line-height: 36px;
     color: rgba(0, 0, 0, 0.70);
-    margin: 0 0 10px;
+    margin: 20px 0 10px 0;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h1 small, h2 small, h3 small {
+    color: rgba(0, 0, 0, 0.40);
 }
 
 p {
     margin-bottom: 12px;
 }
 
-a,
-a:hover {
+a {
     color: rgba(0, 0, 0, 0.70);
     text-decoration: none;
 }
 
 a:hover {
     color: rgba(0, 0, 0, 0.25);
+    text-decoration: none;
 }
 
 ul {
+    margin-left: 20px;
     font-size: 14px;
     line-height: 22px;
-}
-
-ul,
-ul a {
-    color: rgba(0, 0, 0, 0.25);
-}
-
-ul a:hover {
-    color: rgba(0, 0, 0, 0.70);
 }
 
 /* Containers
 *********************************************************************************************/
 
-header,
-article {
+header {
     padding: 8% 20%;
-    float: left;
 }
 
 article {
-    padding-top: 0;
+    padding: 4% 20%;
 }
 
-#single {
-    padding-top: 8%;
+section {
+    padding: 2% 0;
 }
 
 /* Header
@@ -89,14 +155,8 @@ article {
 header {
     background: #58cb8e;
     color: rgba(255, 255, 255, 0.70);
-    margin-bottom: 8%;
 }
 
-header a,
 header h1 {
-    color: #ffffff;
-}
-
-header a:hover {
-    color: rgba(255, 255, 255, 0.70);
+    color: rgba(255, 255, 255, 1);
 }
