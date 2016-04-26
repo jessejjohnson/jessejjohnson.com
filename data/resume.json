@@ -1,0 +1,44 @@
+{
+  "basics": {
+    "name": "Jesse Johnson",
+    "label": "Developer, designer, speaker and student ",
+    "picture": "http://jessejjohnson.com/apple-touch-icon.png",
+    "email": "johnson.jesse@live.com",
+    "phone": "+1.714.276.3403",
+    "website": "http://jessejjohnson.com",
+    "summary": "A highly motivated developer, designer, speaker, and student in Orange County, CA. Passionate about art, design, science and technology; especially where they all come together.",
+    "location": {
+      "address": "",
+      "postalCode": "CA 92648",
+      "city": "Orange County",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "jessejjohnson",
+        "url": "https://twitter.com/jessejjohnson"
+      },
+      {
+        "network": "GitHub",
+        "username": "jessejjohnson",
+        "url": "https://github.com/jessejjohnson"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jessejjohnson",
+        "url": "https://www.linkedin.com/in/jessejjohnson"
+      }
+    ]
+  },
+  "work": [],
+  "volunteer": [],
+  "education": [],
+  "awards": [],
+  "publications": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
