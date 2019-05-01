@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Jesse Johnson",
-    "label": "Developer, designer, speaker and student ",
+    "label": "Father, Husband, and Developer",
     "picture": "http://jessejjohnson.com/apple-touch-icon.png",
     "email": "johnson.jesse@live.com",
     "phone": "+1.714.276.3403",
@@ -10,14 +10,14 @@
     "location": {
       "address": "",
       "postalCode": "CA 92648",
-      "city": "Orange County",
+      "city": "Huntington Beach",
       "countryCode": "US",
       "region": "California"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "jessejjohnson",
+        "username": "@jessejjohnson",
         "url": "https://twitter.com/jessejjohnson"
       },
       {
@@ -29,6 +29,11 @@
         "network": "LinkedIn",
         "username": "jessejjohnson",
         "url": "https://www.linkedin.com/in/jessejjohnson"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "Jesse Johnson",
+        "url": "https://stackoverflow.com/users/540756/jesse-johnson?tab=profile"
       }
     ]
   },
