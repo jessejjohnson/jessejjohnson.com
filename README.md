@@ -1,4 +1,4 @@
-Source for [jessejjohnson.com][2] (hosted by [GitHub Pages][3])
+Source for my personal website [jessejjohnson.com][2] (hosted on [GitHub Pages][3])
 
 ----------
 
@@ -8,6 +8,6 @@ Source for [jessejjohnson.com][2] (hosted by [GitHub Pages][3])
 
 *A highly motivated developer, designer, speaker, and student in Orange County, CA. Passionate about art, design, science and technology; especially where they all come together.*
 
-  [1]: http://jessejjohnson.com/favicon-96x96.png
-  [2]: http://www.jessejjohnson.com
+  [1]: /favicons/favicon-96x96.png
+  [2]: https://www.jessejjohnson.com
   [3]: https://pages.github.com/
