@@ -1,13 +1,46 @@
-body {
-	background: #fff;
-	font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
-	line-height: 1.4;
+*,*:before,*:after {
+    box-sizing: border-box
 }
 
-h1 {
-	font-weight: 600;
+html {
+    height: 100%;
+    font-size: 18px
+}
+
+body {
+	background: #fff;
+	font-weight: 400;
+	font-family: 'Barlow',"Helvetica Neue",Helvetica,Arial,Tahoma,Geneva,sans-serif;
+	line-height: 1.6;
+	text-rendering: optimizeLegibility !important;
+	color: #555;
 }
 
 a {
 	color: #2C85B1;
+}
+
+a,a:visited,a:focus,a:active {
+    text-decoration: none
+}
+
+h1 {
+	font-size: 22px;
+    font-family: 'Barlow',"Helvetica Neue",Helvetica,Arial,Tahoma,Geneva,sans-serif;
+    letter-spacing: -0.005rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+h1.name {
+    font-size: 22px;
+    font-family: 'Barlow',"Helvetica Neue",Helvetica,Arial,Tahoma,Geneva,sans-serif;
+    letter-spacing: -0.005rem;
+    font-weight: 700;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    color: #333;
+    text-transform: uppercase;
 }
