@@ -1,4 +1,4 @@
-Source for my personal website [jessejjohnson.com][2] (hosted on [GitHub Pages][3])
+Source for personal website [jessejjohnson.com][2] (hosted on [GitHub Pages][3]). Analytics via [Umami](https://us.umami.is/websites/698571a4-4d70-4f14-be32-fe3c78a72461).
 
 ----------
 
